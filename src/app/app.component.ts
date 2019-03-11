@@ -18,21 +18,23 @@ export class AppComponent {
       //console.log("flag true");
       this.flag = true;
       this.items=[...this.items,length++]
-
-      /*setTimeout(function () {
+      
+      console.log(this);
+      
+      setTimeout( () => {
+        console.log(this, "inside");
+        this.flag=false;
         console.log('Test',this.items,this.flag);
         // if(!this.items) this.items =Array(30);
         this.items = [...this.items, this.length++]
-      }, 3000);*/
+      }, 3000);
       //this.flag = false;
     
     // }
   }
+  //this.flag = false; 
+  //this.items=[...this.items,length++]
   
-  /*timeout() {s
-    var that = this;
-
-} */
 
 
 }
