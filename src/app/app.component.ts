@@ -17,7 +17,7 @@ export class AppComponent {
 
       //console.log("flag true");
       this.flag = true;
-      this.items=[...this.items,length++]
+      //this.items=[...this.items,length++]
       
       console.log(this);
       
